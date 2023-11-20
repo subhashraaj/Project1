@@ -76,39 +76,49 @@ nav>div>a {
     font-size: 32px;
     font-weight: 700;
 }
-#form{
+
+#form {
     margin-top: 100px;
 }
 
-#form>h1 {
+#form>h2 {
     color: #FCAF02;
     font-size: 64px;
     font-weight: 700;
 }
 
-#form>form{
+#form>form {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
+input {
+    height: 82px;
+    width: 100%;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    background-color: #000;
+    color: #FCAF02;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 40px;
+}
 
+::placeholder {
+    color: #FCAF02;
+    font-size: 28px;
+    padding-left: 50px;
+}
 
+form>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.form>button{
+#form>form>button {
     border-radius: 500px;
     background: #FCAF02;
     width: 325px;
@@ -120,5 +130,34 @@ nav>div>a {
     color: #000;
     font-size: 32px;
     font-weight: 700;
+}
+table{
+    border: 2px solid #FCAF02;
+    width:95vw;
+    margin: auto;
+    margin-top: 70px;
+    border-collapse: collapse;
+    color: #FCAF02;
+    margin-bottom: 50px;
+}
+th {
+    border: 2px solid #FCAF02;
+    padding: 20px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 400;
+}
 
+td {
+    border-right: 2px solid #FCAF02;
+    padding: 20px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 400;
+}
+tfoot{
+    background-color: #FCAF02;
+    color: #000;
 }
